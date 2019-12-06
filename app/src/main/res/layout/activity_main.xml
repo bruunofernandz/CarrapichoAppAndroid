@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Você diria que se alimenta bem?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text='A. "Muito! Já que faço academia, adoro comer coisas leves de três em três horas e controlar as calorias."' />
+
+                <RadioButton
+                    android:id="@+id/radioButtonB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='B. "Ah... Como muito, mas, na maioria das vezes, são sempre besteiras."' />
+
+                <RadioButton
+                    android:id="@+id/radioButtonC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='C. "Acho que sim. Meu prato ê sempre bem colorido, apesar de não resistir a um docinho depois do almoço."' />
+
+                <RadioButton
+                    android:id="@+id/radioButtonD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='D. "Não. Só gosto de macarrão, batata frita... Coisas que me sustentam!”' />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Vai rolar um casamento com uma festança bapho logo em seguida. Você é do tipo que:" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton2A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="A. Não come nada o dia inteiro para aproveitar bastante a festa." />
+
+                <RadioButton
+                    android:id="@+id/radioButton2B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B. Já se prepara para atacar a mesinha de doces! Rs" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C. Faz uma boquinha antes para não exagerar na hora, né?" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D. Come um pouquinho de tudo, mas não passa dos limites." />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Quantas vezes por semana você come chocolate?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton3A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text='A. "Uma vez por dia. Não tem como!"' />
+
+                <RadioButton
+                    android:id="@+id/radioButton3B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='B. "Por semana? Como mais de uma vez por dia. #fato”' />
+
+                <RadioButton
+                    android:id="@+id/radioButton3C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='C. "Um dia sim, um dia não. Depende da minha vontade."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton3D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='D. "Só aos fins de semana."' />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Rolou aquele imprevisto e você vai chegar mais tarde em casa. E agora?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton4A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="A. Compra um salgado em alguma lanchonete mesmo e compensa no dia seguinte." />
+
+                <RadioButton
+                    android:id="@+id/radioButton4B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B. Dá um jeitinho de comer algo mais leve para dar aquela forrada." />
+
+                <RadioButton
+                    android:id="@+id/radioButton4C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C. Não come nada e espera chegar em casa para devorar o que tiver pela frente: pão, miojo, bolacha...alternativa c" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D. Corre para um fast-food e pede um lanche bem caprichado." />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Qual é o melhor passeio para fazer com a galera reunida?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton5A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="A. Ir para a balada. Afinal, tá não tem comida e você não cai na tentação." />
+
+                <RadioButton
+                    android:id="@+id/radioButton5B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B. Sair para jantar com as bests. Vocês sempre exageram um pouquinho, mas compensam depois." />
+
+                <RadioButton
+                    android:id="@+id/radioButton5C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C. Ser convidada para uma festinha infantil do irmão da amiga, com muita coxinha, mini- pizza..." />
+
+                <RadioButton
+                    android:id="@+id/radioButton5D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D. Passear no parque e aproveitar para tomar uma água de coco, bem gelatina, muito bom!" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Como é o seu dia a dia?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton6A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text='A. "Passo bastante tempo sentada, mas cuido bastante da alimentação."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton6B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='B. "Sou completamente sedentária: da escola para o PC, do PC para a escola."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton6C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='C. "Não curto academia, mas procuro me exercitar de outras formas, como andando de skate, correndo..."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton6D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='D. "Marco ponto na academia, à tarde, de manhã... Quando tenho um tempinho livre, aproveito para malhar."' />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Se você dividir o seu peso pela sua altura ao quadrado, o resultado de seu IMC (Índice de Massa Corpórea) é:" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton7A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="A. Entre 19 e 25." />
+
+                <RadioButton
+                    android:id="@+id/radioButton7B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B. Entre 25 e 30." />
+
+                <RadioButton
+                    android:id="@+id/radioButton7C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C. Acima de 30." />
+
+                <RadioButton
+                    android:id="@+id/radioButton7D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D. Abaixo de 18." />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. O que você sente quando se olhar no espelho?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton8A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="A. Não fica 100% satisfeita, mas está feliz com o que vê reftetido." />
+
+                <RadioButton
+                    android:id="@+id/radioButton8B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B. Não sente nada, pois evita se olhar para não ficar mal depois." />
+
+                <RadioButton
+                    android:id="@+id/radioButton8C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C. Odeia encarar a triste realidade." />
+
+                <RadioButton
+                    android:id="@+id/radioButton8D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D. Orgulho! Ver o seu reflexo é uma das coisas que você mais curte!" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Sua mãe precisa Insistir para você comer mais verduras e legumes?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton9A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text='A. "Ela não liga muito para isso."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton9B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='B. "E o contrário! Ela tenta fazer com que eu saía da linha às vezes! Rs"' />
+
+                <RadioButton
+                    android:id="@+id/radioButton9C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='C. "Sempre! Ela diz que sou ruim para comer desde pequena."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton9D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='D. "De vez em quando. Mas, como ela sabe que como verdura durante a semana, então está tudo certo."' />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Complete a frase: “À noite, eu...”:" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton10A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text='A. "Sinto sempre muita fome!"' />
+
+                <RadioButton
+                    android:id="@+id/radioButton10B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='B. "Gosto de comer algo mais leve, como uma sopa ou uma saladinha."' />
+
+                <RadioButton
+                    android:id="@+id/radioButton10C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='C. "Faço um lanchinho de pão com frios e está ótimo!"' />
+
+                <RadioButton
+                    android:id="@+id/radioButton10D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='D. "Não janto. Simples assim."' />
+
+                <Button
+                    android:id="@+id/calcular"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="#E91E63"
+                    android:backgroundTint="#1E4AE9"
+                    android:backgroundTintMode="add"
+                    android:onClick="calcular"
+                    android:shadowColor="#673AB7"
+                    android:text="CALCULAR"
+                    android:textColor="#FFFFFF"
+                    android:textColorLink="#FFFFFF"
+                    android:textSize="24sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
